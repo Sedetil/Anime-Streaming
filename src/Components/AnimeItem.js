@@ -69,6 +69,7 @@ function AnimeItem() {
         getAnime(id);
         getCharacters(id);
         getVideos(id);
+        getAnimeVideos(id);
     }, [id]);
 
     // Komponen untuk menampilkan daftar video episode
